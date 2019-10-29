@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://hintergrundbilderhd.net/image/stadte/938/eiffelturm-beleuchtet-nacht-sehenswurdigkeiten.jpg");
+  font-family: "Raleway"; }
+
+/*Decorations*/
+#heading-background {
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+  background-color: white;
+  width: 100%;
+  height: 25%;
+  opacity: .5;
+  box-shadow: 20px 20px 20px white; }
+
+/*Heading*/
+header {
+  padding: 50px;
+  font-family: "Raleway", sans-serif;
+  display: inline; }
+  header > a > img {
+    position: absolute;
+    left: 5px; }
+  header > h2 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    transform: translateY(100%);
+    text-decoration: underline; }
+
+/*Main Content*/
+main {
+  text-align: center;
+  left: 50%;
+  transform: translateY(80%); }
+  main > p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 20px white; }
+
+footer {
+  text-align: center;
+  left: 50%;
+  transform: translateY(70%); }
+  footer > h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 20px white; }
+  footer > p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 20px white; }
+  footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 20px white;
+    border-bottom: solid 1px rgba(255, 255, 255, 0);
+    transition-duration: 500ms; }
+  footer > p > a:hover {
+    transition-duration: 500ms;
+    border-bottom: solid 1px white; }

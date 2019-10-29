@@ -1,0 +1,22 @@
+{
+    "name": "main_project",
+    "version": "1.0.0",
+    "description": "A website I am creating in order of my school",
+    "main": "index.js",
+    "scripts": {
+        "build-scss": "node-sass -w scss -o dist/css --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/officialpenta/WebPresentation.git"
+    },
+    "author": "officialpenta",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/officialpenta/WebPresentation/issues"
+    },
+    "homepage": "https://github.com/officialpenta/WebPresentation#readme",
+    "dependencies": {
+        "node-sass": "^4.13.0"
+    }
+}
