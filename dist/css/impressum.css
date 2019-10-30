@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(to right, blue, cyan);
+  font-family: "Raleway"; }
+
+/*Decorations*/
+#intro-background {
+  z-index: -1;
+  position: absolute;
+  background-color: white;
+  left: 480px;
+  top: 390px;
+  width: 920px;
+  height: 275px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.171);
+  opacity: .5; }
+
+#heading-background {
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+  background-color: white;
+  width: 100%;
+  height: 25%;
+  opacity: .2;
+  box-shadow: 20px 20px 20px 40px white; }
+
+/*Header*/
+.header-caption {
+  padding: 50px;
+  display: inline; }
+  .header-caption > .header-navbar {
+    position: absolute; }
+    .header-caption > .header-navbar > a {
+      color: black;
+      text-decoration: none;
+      border-bottom: solid 1px rgba(0, 0, 0, 0);
+      transition: border 500ms;
+      font-size: 1.4rem; }
+    .header-caption > .header-navbar > a:hover {
+      border-bottom: solid 1px black;
+      transition: border 500ms; }
+  .header-caption > h2 {
+    transform: translateY(80%);
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline; }
+
+/*Main*/
+.introduction {
+  transform: translateY(10pc);
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 10pc; }
+  .introduction > .intro-heading {
+    text-align: center; }
+
+.main-caption {
+  transform: translateY(10pc);
+  text-align: center; }
+  .main-caption > h3 {
+    font-size: 1.5rem; }
+  .main-caption > .main-contactPersons {
+    margin-top: 3pc; }
+  .main-caption > .main-openingtimes {
+    margin-left: 500px;
+    margin-right: 500px; }
+  .main-caption > .main-sendMail {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    transition-duration: 500ms; }
+    .main-caption > .main-sendMail:hover {
+      border-bottom: solid 1px black;
+      transition-duration: 500ms; }
+  .main-caption > .main-sendMail {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    transition-duration: 500ms; }
+    .main-caption > .main-sendMail:hover {
+      border-bottom: solid 1px black;
+      transition-duration: 500ms; }
+  .main-caption > .main-flyer {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    transition-duration: 500ms; }
+    .main-caption > .main-flyer:hover {
+      border-bottom: solid 1px black;
+      transition-duration: 500ms; }
