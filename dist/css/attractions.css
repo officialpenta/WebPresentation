@@ -16,24 +16,45 @@ body {
   opacity: .5;
   box-shadow: 20px 20px 20px white; }
 
+#background-lightness {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -999999;
+  opacity: .4; }
+
 /*Heading*/
 .header-caption {
   padding: 50px;
   font-family: "Raleway", sans-serif;
   display: inline; }
+  .header-caption > .header-navbar {
+    position: absolute; }
+    .header-caption > .header-navbar > a {
+      color: black;
+      text-decoration: none;
+      border-bottom: solid 1px rgba(0, 0, 0, 0);
+      transition: border 500ms;
+      font-size: 1.4rem; }
+    .header-caption > .header-navbar > a:hover {
+      border-bottom: solid 1px black;
+      transition: border 500ms; }
   .header-caption > a {
     position: absolute;
     left: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5rem;
-    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    border-bottom: solid 1px rgba(255, 255, 255, 0);
     transition-duration: 500ms; }
   .header-caption > a:hover {
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px white;
     transition-duration: 500ms; }
   .header-caption > h2 {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 3rem;
     transform: translateY(100%);
@@ -75,3 +96,21 @@ body {
   .contact-caption > p > a:hover {
     transition-duration: 500ms;
     border-bottom: solid 1px white; }
+
+/*Mobile view*/
+@media only screen and (max-width: 680px) {
+  #heading-background {
+    height: 10%; }
+  .header-caption > h2 {
+    font-size: 1.5rem;
+    transform: translateY(-20%); }
+  .header-caption > a {
+    font-size: 1rem;
+    left: 100%;
+    transform: translateX(-100%); }
+  .main-caption > p {
+    transform: translateY(-200%);
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 20px white; } }
