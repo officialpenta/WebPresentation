@@ -31,6 +31,12 @@ body {
   padding: 50px;
   font-family: "Raleway", sans-serif;
   display: inline; }
+  .header-caption > h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    transform: translateY(10%);
+    text-decoration: underline; }
   .header-caption > .header-navbar {
     position: absolute; }
     .header-caption > .header-navbar > a {
@@ -53,12 +59,6 @@ body {
   .header-caption > a:hover {
     border-bottom: solid 1px white;
     transition-duration: 500ms; }
-  .header-caption > h2 {
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    transform: translateY(10%);
-    text-decoration: underline; }
 
 /*Main Content*/
 .main-caption {
