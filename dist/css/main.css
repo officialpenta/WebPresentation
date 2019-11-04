@@ -117,3 +117,69 @@ nav {
       .footer > ul > li > a:hover {
         border-bottom: solid 1px black;
         transition-duration: 500ms; }
+
+        /*For School*/
+@media only screen and (max-width: 1680px) {
+  body {
+    background-image: url('https://hdhintergrundbilder.net/image/natur/8085/berge-see-gipfel.jpg');
+    height: 100%;
+  }
+  .greetings{
+    text-align: center;
+    transform: translate(-50%, -300%);
+  }
+
+
+.header-background {
+  height: 365px;
+  width: 99.5%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  opacity: .5; }
+
+.main-content {
+  filter: blur(3px);
+  z-index: -1;
+  background-color: white;
+  opacity: .5;
+  width: 99.5%;
+  height: 30%;
+  transform: translate(0px, 60px);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white; }
+
+.content-text-start {
+  font-weight: bold;
+  font-size: 20px; }
+
+.main-content-introduction-heading {
+  width: 99.2%;
+  transform: translate(10px, -230px);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.main-content-introduction {
+  width: 99.2%;
+  transform: translate(10px, -225px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.main-content-highlights-heading {
+  width: 99.2%;
+  transform: translate(10px, -220px);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  }
+
+.main-content-highlights {
+  width: 99.2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transform: translate(10px, -215px); }
+
+  .footer {
+    width: 99.5%;
+  }
+}

@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+/*Decorations*/
+/*Heading*/
+/*Main Content*/
+/*Mobile view*/
 body {
   padding: 0;
   margin: 0;
   background-image: url("https://hintergrundbilderhd.net/image/stadte/938/eiffelturm-beleuchtet-nacht-sehenswurdigkeiten.jpg");
   font-family: "Raleway"; }
 
-/*Decorations*/
 #heading-background {
   z-index: -1;
   position: absolute;
@@ -26,7 +29,6 @@ body {
   z-index: -999999;
   opacity: .4; }
 
-/*Heading*/
 .header-caption {
   padding: 50px;
   font-family: "Raleway", sans-serif;
@@ -45,9 +47,9 @@ body {
       border-bottom: solid 1px rgba(255, 255, 255, 0);
       transition: border 500ms;
       font-size: 1.4rem; }
-    .header-caption > .header-navbar > a:hover {
-      border-bottom: solid 1px white;
-      transition: border 500ms; }
+      .header-caption > .header-navbar > a:hover {
+        border-bottom: solid 1px white;
+        transition: border 500ms; }
   .header-caption > a {
     position: absolute;
     left: 5px;
@@ -56,11 +58,10 @@ body {
     font-size: 1.5rem;
     border-bottom: solid 1px rgba(255, 255, 255, 0);
     transition-duration: 500ms; }
-  .header-caption > a:hover {
-    border-bottom: solid 1px white;
-    transition-duration: 500ms; }
+    .header-caption > a:hover {
+      border-bottom: solid 1px white;
+      transition-duration: 500ms; }
 
-/*Main Content*/
 .main-caption {
   text-align: center;
   left: 50%;
@@ -85,19 +86,18 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     text-shadow: 2px 2px 20px white; }
-  .contact-caption > p > a {
-    text-decoration: none;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5rem;
-    text-shadow: 2px 2px 20px white;
-    border-bottom: solid 1px rgba(255, 255, 255, 0);
-    transition-duration: 500ms; }
-  .contact-caption > p > a:hover {
-    transition-duration: 500ms;
-    border-bottom: solid 1px white; }
+    .contact-caption > p > a {
+      text-decoration: none;
+      color: white;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 20px white;
+      border-bottom: solid 1px rgba(255, 255, 255, 0);
+      transition-duration: 500ms; }
+      .contact-caption > p > a:hover {
+        transition-duration: 500ms;
+        border-bottom: solid 1px white; }
 
-/*Mobile view*/
 @media only screen and (max-width: 680px) {
   #heading-background {
     height: 10%; }

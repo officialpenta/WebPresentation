@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+/*Decorations*/
+/*Header*/
+/*Main*/
 body {
   padding: 0px;
   margin: 0px;
-  background-image: linear-gradient(to right, white, cyan, rgba(0, 238, 255, 0));
+  background-image: linear-gradient(to right, cyan, #5dbcd2, cyan);
   font-family: "Raleway"; }
 
-/*Decorations*/
 #intro-background {
   z-index: -1;
   position: absolute;
@@ -28,7 +30,6 @@ body {
   opacity: .2;
   box-shadow: 20px 20px 20px 40px black; }
 
-/*Header*/
 .header-caption {
   padding: 50px;
   display: inline; }
@@ -40,9 +41,9 @@ body {
       border-bottom: solid 1px rgba(0, 0, 0, 0);
       transition: border 500ms;
       font-size: 1.4rem; }
-    .header-caption > .header-navbar > a:hover {
-      border-bottom: solid 1px black;
-      transition: border 500ms; }
+      .header-caption > .header-navbar > a:hover {
+        border-bottom: solid 1px black;
+        transition: border 500ms; }
   .header-caption > h2 {
     transform: translateY(80%);
     color: black;
@@ -50,7 +51,6 @@ body {
     font-size: 3rem;
     text-decoration: underline; }
 
-/*Main*/
 .introduction {
   transform: translateY(10pc);
   margin-left: 500px;
@@ -73,16 +73,14 @@ body {
     text-decoration: none;
     color: black;
     border-bottom: solid 1px rgba(0, 0, 0, 0);
-    transition-duration: 500ms; }
-    .main-caption > .main-sendMail:hover {
-      border-bottom: solid 1px black;
-      transition-duration: 500ms; }
-  .main-caption > .main-sendMail {
+    transition-duration: 500ms;
     text-decoration: none;
     color: black;
     border-bottom: solid 1px rgba(0, 0, 0, 0);
     transition-duration: 500ms; }
     .main-caption > .main-sendMail:hover {
+      border-bottom: solid 1px black;
+      transition-duration: 500ms;
       border-bottom: solid 1px black;
       transition-duration: 500ms; }
   .main-caption > .main-flyer {
@@ -94,3 +92,10 @@ body {
     .main-caption > .main-flyer:hover {
       border-bottom: solid 1px black;
       transition-duration: 500ms; }
+
+@media only screen and (max-width: 1680px) {
+  #intro-background {
+    width: 680px;
+    height: 340px; }
+  .header-caption > .header-navbar {
+    transform: translateY(-70%); } }
