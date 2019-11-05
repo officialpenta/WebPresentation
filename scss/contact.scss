@@ -101,6 +101,7 @@ body {
             border-radius: 10px;
             border-color: white;
             transition-duration: 500ms;
+            font-family: "Raleway";
             &:hover {
                 cursor: pointer;
                 border-color: gray;
@@ -117,7 +118,9 @@ body {
             height: 100px;
             color: gray;
             border: 1px solid white;
+            caret-color: black;
             transition-duration: 500ms;
+            font-family: "Raleway";
             &:hover {
                 transform: scale(1.05);
                 transition-duration: 500ms;
@@ -139,6 +142,7 @@ body {
     background-color: gray;
     >ul {
         >li {
+            font-size: 20px;
             padding: 10px;
             list-style-type: none;
             display: inline-block;

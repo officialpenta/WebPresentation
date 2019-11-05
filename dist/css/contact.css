@@ -83,7 +83,8 @@ body {
       border-style: solid;
       border-radius: 10px;
       border-color: white;
-      transition-duration: 500ms; }
+      transition-duration: 500ms;
+      font-family: "Raleway"; }
       .main-caption > .contact-caption > input[type=submit]:hover {
         cursor: pointer;
         border-color: gray;
@@ -97,7 +98,9 @@ body {
       height: 100px;
       color: gray;
       border: 1px solid white;
-      transition-duration: 500ms; }
+      caret-color: black;
+      transition-duration: 500ms;
+      font-family: "Raleway"; }
       .main-caption > .contact-caption > #message-input:hover {
         transform: scale(1.05);
         transition-duration: 500ms; }
@@ -114,6 +117,7 @@ body {
   text-align: center;
   background-color: gray; }
   .footer-caption > ul > li {
+    font-size: 20px;
     padding: 10px;
     list-style-type: none;
     display: inline-block;

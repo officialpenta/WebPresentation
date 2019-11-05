@@ -17,10 +17,10 @@ body {
     // left: 780px;
     // top: 325px;
     left: 50%;
-    top: 46.5%;
+    top: 45.5%;
     transform: translate(-50%, -50%);
     width: 550px;
-    height: 170px;
+    height: 140px;
     border-style: solid;
     border-color: gray;
     opacity: .5;
@@ -72,13 +72,15 @@ body {
 .main-caption {
     margin-left: 700px;
     margin-right: 700px;
-    transform: translateY(90%);
+    transform: translateY(105%);
     >.go-back-form {
         transform: translate(45%, 100%);
         >input[type=submit] {
             padding: 10px;
             border: 1px solid white;
             border-radius: 5px;
+            padding: 12px 20px;
+            font-family: "Raleway";
         }
     }
 }
@@ -99,6 +101,7 @@ body {
     background-color: gray;
     >ul {
         >li {
+            font-size: 20px;
             padding: 10px;
             list-style-type: none;
             display: inline-block;

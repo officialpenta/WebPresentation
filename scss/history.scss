@@ -75,7 +75,7 @@ p {
         text-align: center;
         font-size: 3rem;
         color: $color_1;
-        transform: translateY(50%);
+        transform: translateY(70%);
         text-decoration: underline;
     }
 }
@@ -120,6 +120,7 @@ p {
     background-color: $background_color_3;
     >ul {
         >li {
+            font-size: 20px;
             padding: 10px;
             list-style-type: none;
             display: inline-block;
