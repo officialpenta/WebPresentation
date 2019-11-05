@@ -1,0 +1,119 @@
+@import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+    background-size: 1920px 980px;
+    background-image: url('https://wallpaperplay.com/walls/full/c/8/6/77833.jpg');
+}
+
+
+/*Decorations*/
+
+#content-background {
+    z-index: -1;
+    position: absolute;
+    background-color: white;
+    // left: 780px;
+    // top: 325px;
+    left: 50%;
+    top: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 170px;
+    border-style: solid;
+    border-color: gray;
+    opacity: .5;
+}
+
+#heading-background {
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    opacity: .5;
+    box-shadow: 20px 20px 20px 30px white;
+}
+
+
+/*Heading*/
+
+.header-caption {
+    padding: 50px;
+    display: inline;
+    >.header-title {
+        color: black;
+        text-align: center;
+        font-size: 3rem;
+        transform: translateY(60%);
+        text-decoration: underline;
+    }
+    >.header-navbar {
+        position: absolute;
+        >a {
+            color: black;
+            text-decoration: none;
+            border-bottom: solid 1px rgba(255, 255, 255, 0);
+            transition: border 500ms;
+            font-size: 1.4rem;
+            &:hover {
+                border-bottom: solid 1px rgba(0, 0, 0, 1);
+                transition: border 500ms;
+            }
+        }
+    }
+}
+
+
+/*Main caption*/
+
+.main-caption {
+    margin-left: 700px;
+    margin-right: 700px;
+    transform: translateY(90%);
+    >.go-back-form {
+        transform: translate(45%, 100%);
+        >input[type=submit] {
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+/*Footer*/
+
+.footer-caption {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 99.7%;
+    color: black;
+    text-align: center;
+    background-color: gray;
+    >ul {
+        >li {
+            padding: 10px;
+            list-style-type: none;
+            display: inline-block;
+            font-family: "Raleway";
+            text-align: center;
+            >a {
+                color: black;
+                text-decoration: none;
+                border-bottom: solid 1px rgba(0, 0, 0, 0);
+                transition-duration: 500ms;
+                &:hover {
+                    border-bottom: solid 1px black;
+                    transition-duration: 500ms;
+                }
+            }
+        }
+    }
+}
