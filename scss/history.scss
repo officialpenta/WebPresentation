@@ -90,18 +90,18 @@ p {
     grid-template-rows: auto;
     display: grid;
     >.picture-1 {
-        width: 50px;
-        height: 50px;
+        box-shadow: 10px 10px 10px black;
         grid-column: 1;
+        margin-bottom: 20px;
     }
     >.picture-1-text {
         color: $color_1;
         grid-column: 4;
         grid-row: 1;
+        margin-bottom: 20px;
     }
     >.picture-2 {
-        width: 50px;
-        height: 50px;
+        box-shadow: 10px 10px 10px black;
         grid-column: 1;
         grid-row: 2;
     }
