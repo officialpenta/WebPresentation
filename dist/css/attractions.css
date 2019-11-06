@@ -99,6 +99,7 @@ body {
   text-align: center;
   background-color: gray; }
   .footer-caption > ul > li {
+    font-size: 20px;
     padding: 10px;
     list-style-type: none;
     display: inline-block;
