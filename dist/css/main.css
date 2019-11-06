@@ -61,7 +61,7 @@ nav {
   background-color: white;
   opacity: .5;
   width: 99.5%;
-  height: 30%;
+  height: 20%;
   transform: translate(0px, 60px);
   border-style: solid;
   border-radius: 10px;
@@ -73,25 +73,25 @@ nav {
 
 .main-content-introduction-heading {
   width: 99.5%;
-  transform: translate(10px, -230px);
+  transform: translate(10px, -150px);
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .main-content-introduction {
   width: 99.5%;
-  transform: translate(10px, -225px);
+  transform: translate(10px, -165px);
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .main-content-highlights-heading {
   width: 99.5%;
-  transform: translate(10px, -220px);
+  transform: translate(10px, -180px);
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .main-content-highlights {
   width: 99.5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  transform: translate(10px, -215px); }
+  transform: translate(10px, -190px); }
 
 .footer {
   border-style: solid;

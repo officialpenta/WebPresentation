@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/officialpenta/WebPresentation#readme",
     "dependencies": {
+        "bootstrap": "^3.4.1",
         "node-sass": "^4.13.0"
     }
 }
