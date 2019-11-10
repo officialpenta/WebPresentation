@@ -1,0 +1,157 @@
+$color_1: black;
+$color_2: white;
+$font_family_1: Verdana, Geneva, Tahoma, sans-serif;
+$font_family_2: Arial, Helvetica, sans-serif;
+$background_color_1: gray;
+$background_color_2: white;
+$border_color_1: gray;
+$border_color_2: white;
+$default_width_percentage: 99.5%;
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://wallpapercave.com/wp/dcFwnop.jpg");
+  width: 100%;
+  height: 80%;
+}
+
+/*Heading*/
+
+.header-background {
+  height: 365px;
+  width: $default_width_percentage;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: $background_color_2;
+  opacity: 0.5;
+}
+
+.main-content-background {
+  filter: blur(3px);
+  z-index: -1;
+  background-color: $background_color_2;
+  opacity: 0.5;
+  width: $default_width_percentage;
+  height: 50%;
+  transform: translateY(50px);
+  border: 1px solid $border_color_2;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: $background_color_1;
+  border: 1px solid $border_color_1;
+  border-radius: 10px;
+  > ul {
+    text-align: center;
+    > li {
+      font-size: 20px;
+      list-style-type: none;
+      padding: 10px;
+      display: inline-block;
+      font-family: $font_family_1;
+      > a {
+        color: $color_1;
+        text-decoration: none;
+        border-bottom: solid 1px rgba(0, 0, 0, 0);
+        transition-duration: 500ms;
+        &:hover {
+          border-bottom: solid 1px rgba(0, 0, 0, 1);
+          transition-duration: 500ms;
+        }
+      }
+    }
+  }
+}
+
+.header {
+  box-shadow: 10px 10px 30px 1px black;
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: $border_color_2;
+  background-color: $background_color_2;
+  width: $default_width_percentage;
+}
+
+.greetings {
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -600%);
+  font-family: $font_family_2;
+  font-size: 2rem;
+  text-decoration: underline;
+  position: absolute;
+}
+.content-text-start {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Main Content*/
+main {
+  height: 70%;
+}
+
+
+.main-content-introduction-heading {
+  width: $default_width_percentage;
+  transform: translate(10px, -220px);
+  text-align: center;
+  font-family: $font_family_1;
+}
+
+.main-content-introduction {
+  width: $default_width_percentage;
+  transform: translate(10px, -220px);
+  font-family: $font_family_1;
+}
+
+.main-content-highlights-heading {
+  width: $default_width_percentage;
+  transform: translate(10px, -220px);
+  text-align: center;
+  font-family: $font_family_1;
+}
+
+.main-content-highlights {
+  width: $default_width_percentage;
+  font-family: $font_family_1;
+  transform: translate(10px, -220px);
+}
+
+.footer {
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: $default_width_percentage;
+  color: $color_2;
+  text-align: center;
+  background-color: $background_color_1;
+  > ul {
+    > li {
+      font-size: 20px;
+      padding: 10px;
+      list-style-type: none;
+      display: inline-block;
+      font-family: $font_family_1;
+      text-align: center;
+      > a {
+        color: $color_1;
+        text-decoration: none;
+        border-bottom: solid 1px rgba(0, 0, 0, 0);
+        transition-duration: 500ms;
+        &:hover {
+          border-bottom: solid 1px rgba(0, 0, 0, 1);
+          transition-duration: 500ms;
+        }
+      }
+    }
+  }
+}
