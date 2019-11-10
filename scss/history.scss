@@ -103,7 +103,7 @@ p {
         color: $color_1;
         grid-column: 4;
         grid-row: 1;
-        margin-bottom: 20px;
+        margin: 0 0 20px 10%;
     }
     >.picture-2 {
         box-shadow: 10px 10px 10px black;
@@ -111,6 +111,7 @@ p {
         grid-row: 2;
     }
     >.picture-2-text {
+        margin: 0 0 20px 10%;
         grid-column: 4;
         grid-row: 2;
     }

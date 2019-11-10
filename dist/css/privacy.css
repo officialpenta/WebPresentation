@@ -15,14 +15,14 @@ body {
   opacity: .5;
   box-shadow: 20px 20px 20px 30px white; }
 
-#intro-background {
+#content-background {
   z-index: -1;
   position: absolute;
   background-color: white;
-  left: 305px;
+  left: 280px;
   top: 310px;
-  width: 1240px;
-  height: 275px;
+  width: 1270px;
+  height: 420%;
   border-style: solid;
   border-color: gray;
   opacity: .5; }
@@ -56,8 +56,4 @@ body {
 
 /*Main*/
 .main-caption {
-  margin: 150px 300px 0px 300px; }
-  .main-caption > .paragraph-caption h2 {
-    text-align: center; }
-  .main-caption > .paragraph-caption li {
-    margin: 20px 0px 0px 0px; }
+  margin: 150px 360px 0px 300px; }
