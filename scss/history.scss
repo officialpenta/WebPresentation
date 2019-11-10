@@ -1,7 +1,6 @@
 $color_1: white;
 $color_2: black;
-$font_family_1: "Raleway",
-sans-serif;
+$font_family_1: "Raleway", sans-serif;
 $font_family_2: "Raleway";
 $background_color_1: black;
 $background_color_2: white;
@@ -9,160 +8,148 @@ $background_color_3: gray;
 $border_color_1: gray;
 @import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
 
-/*Decorations*/
-
-
-/*Heading*/
-
-
-/*Main*/
-
-
-/*Footer*/
-
 body {
-    padding: 0;
-    margin: 0;
-    background: url("https://wallpaperaccess.com/full/651709.jpg");
+  padding: 0;
+  margin: 0;
+  background: url("https://wallpaperaccess.com/full/651709.jpg");
 }
 
 p {
-    font-size: 1.3rem;
-    color: $color_1;
+  font-size: 1.3rem;
+  color: $color_1;
 }
 
 #background-lightness {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: $background_color_1;
-    z-index: -999999;
-    opacity: .4;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: $background_color_1;
+  z-index: -999999;
+  opacity: 0.4;
 }
 
 #heading-background {
-    z-index: -1;
-    position: absolute;
-    top: 0%;
-    background-color: $background_color_2;
-    width: 100%;
-    height: 25%;
-    opacity: .5;
-    box-shadow: 20px 20px 20px 30px white;
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+  background-color: $background_color_2;
+  width: 100%;
+  height: 25%;
+  opacity: 0.5;
+  box-shadow: 20px 20px 20px 30px white;
 }
 
 .header-caption {
-    padding: 1px;
-    font-family: $font_family_1;
-    display: inline;
-    >.header-navbar {
-        margin: 20px 0px 0px 10px;
-        position: absolute;
-        >a {
-            margin-left: 5px;
-            border-radius: 60px;
-            box-shadow: 0px 0px 2px white;
-            padding: 0.5em 0.6em;
-            color: $color_1;
-            text-decoration: none;
-            border-bottom: solid 1px rgba(255, 255, 255, 0);
-            transition: border 500ms;
-            font-size: 1.4rem;
-            &:hover {
-                border-bottom: solid 1px white;
-                transition: border 500ms;
-            }
-        }
+  padding: 1px;
+  font-family: $font_family_1;
+  display: inline;
+  > .header-navbar {
+    margin: 20px 0px 0px 10px;
+    position: absolute;
+    > a {
+      margin-left: 5px;
+      border-radius: 60px;
+      box-shadow: 0px 0px 2px white;
+      padding: 0.5em 0.6em;
+      color: $color_1;
+      text-decoration: none;
+      border-bottom: solid 1px rgba(255, 255, 255, 0);
+      transition: border 500ms;
+      font-size: 1.4rem;
+      &:hover {
+        border-bottom: solid 1px white;
+        transition: border 500ms;
+      }
     }
-    h2 {
-        text-align: center;
-        font-size: 3rem;
-        color: $color_1;
-        transform: translateY(70%);
-        text-decoration: underline;
-    }
+  }
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: $color_1;
+    transform: translateY(70%);
+    text-decoration: underline;
+  }
 }
 
 .main-caption {
-    margin-left: 300px;
-    margin-right: 300px;
-    transform: translateY(40%);
-    font-family: $font_family_2;
-    text-align: center;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    display: grid;
-    >.picture-1 {
-        box-shadow: 10px 10px 10px black;
-        grid-column: 1;
-        margin-bottom: 20px;
-    }
-    >.picture-1-text {
-        color: $color_1;
-        grid-column: 4;
-        grid-row: 1;
-        margin: 0 0 20px 10%;
-    }
-    >.picture-2 {
-        box-shadow: 10px 10px 10px black;
-        grid-column: 1;
-        grid-row: 2;
-    }
-    >.picture-2-text {
-        margin: 0 0 20px 10%;
-        grid-column: 4;
-        grid-row: 2;
-    }
+  margin-left: 300px;
+  margin-right: 300px;
+  transform: translateY(40%);
+  font-family: $font_family_2;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  > .picture-1 {
+    box-shadow: 10px 10px 10px black;
+    grid-column: 1;
+    margin-bottom: 20px;
+  }
+  > .picture-1-text {
+    color: $color_1;
+    grid-column: 4;
+    grid-row: 1;
+    margin: 0 0 20px 10%;
+  }
+  > .picture-2 {
+    box-shadow: 10px 10px 10px black;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  > .picture-2-text {
+    margin: 0 0 20px 10%;
+    grid-column: 4;
+    grid-row: 2;
+  }
 }
 
 .footer {
-    border-style: solid;
-    border-color: $border_color_1;
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 99.7%;
-    color: $color_1;
-    text-align: center;
-    background-color: $background_color_3;
-    >ul {
-        >li {
-            font-size: 20px;
-            padding: 10px;
-            list-style-type: none;
-            display: inline-block;
-            font-family: $font_family_2;
-            text-align: center;
-            >a {
-                color: $color_2;
-                text-decoration: none;
-                border-bottom: solid 1px rgba(0, 0, 0, 0);
-                transition-duration: 500ms;
-                &:hover {
-                    border-bottom: solid 1px black;
-                    transition-duration: 500ms;
-                }
-            }
+  border-style: solid;
+  border-color: $border_color_1;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 99.7%;
+  color: $color_1;
+  text-align: center;
+  background-color: $background_color_3;
+  > ul {
+    > li {
+      font-size: 20px;
+      padding: 10px;
+      list-style-type: none;
+      display: inline-block;
+      font-family: $font_family_2;
+      text-align: center;
+      > a {
+        color: $color_2;
+        text-decoration: none;
+        border-bottom: solid 1px rgba(0, 0, 0, 0);
+        transition-duration: 500ms;
+        &:hover {
+          border-bottom: solid 1px black;
+          transition-duration: 500ms;
         }
+      }
     }
+  }
 }
 
 @media only screen and (max-width: 1680px) {
-    body {
-        background-image: linear-gradient(to right, brown, red);
+  body {
+    background-image: linear-gradient(to right, brown, red);
+  }
+  .main-caption {
+    transform: translateY(40%);
+  }
+  .footer {
+    width: 99.5%;
+  }
+  .header-caption {
+    > .header-navbar {
+      transform: translateY(-70%);
     }
-    .main-caption {
-        transform: translateY(40%);
-    }
-    .footer {
-        width: 99.5%;
-    }
-    .header-caption {
-        >.header-navbar {
-            transform: translateY(-70%);
-        }
-    }
+  }
 }

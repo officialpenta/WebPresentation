@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/attractions.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/attractions.css" />
     <link rel="stylesheet" href="" />
     <title>Attraktionen</title>
-</head>
+  </head>
 
-<body>
-
+  <body id="body">
     <!--Decorations-->
 
     <div id="heading-background"></div>
     <div id="background-lightness"></div>
 
     <header class="header-caption">
-        <nav class="header-navbar">
-            <a class="navigateToHome" href="../../index.html">Home</a>
-            <a class="navigateToHistory" href="../history/history.html">Geschichte</a>
-            <a class="navigateToContact" href="../contact/contact.html">Kontakt</a>
-        </nav>
-        <h2>Attraktionen & <br>Sehensw&uuml;rdigkeiten</h2>
+      <nav class="header-navbar">
+        <a class="navigateToHome" href="../../index.html">Home</a>
+        <a class="navigateToHistory" href="../history/history.html"
+          >Geschichte</a
+        >
+        <a class="navigateToContact" href="../contact/contact.html">Kontakt</a>
+      </nav>
+      <h2>Attraktionen & <br />Sehensw&uuml;rdigkeiten</h2>
     </header>
 
     <main class="main-caption">
-        <div class="section-1">
-            <img src="../assets/Nature1.jpeg" alt="naturePicture1">
-            <p>Die Biedensand B&auml;der sind ein grosser Bestandteil f&uuml;r den Spass am Leben. Hier finden sie grosse Kombination aus Hallenbad, Freibad und Badesee, auf einem schoenen Park&auml;hnlichen Gel&auml;nde</p>
-        </div>
-        <div class="section-2">
-            <img src="../assets/Nature2.jpeg" alt="naturePicture2">
-            <p>Das Hallenbad ist f&uuml;r das ganze Jahr bis auf die Revisionszeit ge&ouml;ffnet. Die Freibadsaison beginnt am 15. Mai und endet am 15. September. Die durchschnittliche Besucherzahl liegt bei 15000</p>
-        </div>
-        <div class="section-3">
-            <p>F&uuml;r Erholung und Entspannung, Spiel und Spa&szlig; sowie als Treffpunkt f&uuml;r alle Altersgruppen, sind die Biedensand B&auml;der fuer die gesundheitliche und soziale Aspekte von hoher Bedeutung</p>
-        </div>
+      <img
+        class="picture-1"
+        src="../assets/Nature1.jpeg"
+        alt="naturePicture1"
+        width="200px"
+        height="200px"
+      />
+      <p class="picture-1-text">
+        Die Biedensand B&auml;der sind ein gro&szlig;er Bestandteil f&uuml;r den
+        Spa&szlig; am Leben. Hier finden sie gro&szlig;e Kombination aus
+        Hallenbad, Freibad und Badesee, auf einem sch&ouml;nen
+        Park&auml;hnlichen Gel&auml;nde
+      </p>
+      <img
+        class="picture-2"
+        src="../assets/Nature2.jpeg"
+        alt="naturePicture2"
+        width="200px"
+        height="200px"
+      />
+      <p class="picture-2-text">
+        Das Hallenbad ist f&uuml;r das ganze Jahr bis auf die Revisionszeit
+        ge&ouml;ffnet. Die Freibadsaison beginnt am 15. Mai und endet am 15.
+        September. Die durchschnittliche Besucherzahl liegt bei 15000
+      </p>
+      <p class="none-picture-text">
+        F&uuml;r Erholung und Entspannung, Spiel und Spa&szlig; sowie als
+        Treffpunkt f&uuml;r alle Altersgruppen, sind die Biedensand B&auml;der
+        f&uuml;r die gesundheitliche und soziale Aspekte von hoher Bedeutung
+      </p>
     </main>
 
     <div class="contact-caption">
-        <h2>Kontakt</h2>
-        <p>R&ouml;merstrasse 102</p>
-        <p>68623 Lampertheim</p>
-        <p>Telefon: 06206 / 2000</p>
-        <p>E-Mail: <a href="mailto:info@biedensand-baeder.de">info@biedensand-b&auml;der.de</a></p>
+      <h2>Kontakt</h2>
+      <p>R&ouml;merstrasse 102</p>
+      <p>68623 Lampertheim</p>
+      <p>Telefon: 06206 / 2000</p>
+      <p>
+        E-Mail:
+        <a href="mailto:info@biedensand-baeder.de"
+          >info@biedensand-b&auml;der.de</a
+        >
+      </p>
     </div>
 
-
     <footer class="footer-caption">
-        <ul>
-            <li class="impressum"><a href="../impressum/impressum.html">Impressum</a></li>
-            <li class="datenschutz"><a href="../privacy/privacy.html">Datenschutz</a></li>
-            <li class="agbs"><a href="">AGBs</a></li>
-        </ul>
+      <ul>
+        <li class="impressum">
+          <a href="../impressum/impressum.html">Impressum</a>
+        </li>
+        <li class="datenschutz">
+          <a href="../privacy/privacy.html">Datenschutz</a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+  </body>
+  <script>
+      let doc = document.getElementById('body');
+      console.log(`Offset resolution: ${doc.offsetWidth}x${doc.offsetHeight}`);
+      console.log(`Client resolution: ${doc.clientWidth}x${doc.clientHeight}`);
+      console.log(`Scroll resolution: ${doc.scrollWidth}x${doc.scrollHeight}`);
+      
+  </script>
 </html>

@@ -5,18 +5,16 @@ $background_color_1: white;
 $background_color_2: black;
 @import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
 
-/*Decorations*/
-
-/*Heading*/
-
-/*Main Content*/
-
-/*Mobile view*/
-
 body {
+  position: relative;
   padding: 0;
   margin: 0;
-  background-image: url("https://hintergrundbilderhd.net/image/stadte/938/eiffelturm-beleuchtet-nacht-sehenswurdigkeiten.jpg");
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 255, 115),
+    rgb(194, 234, 243),
+    rgb(0, 255, 115)
+  );
   font-family: $font_family_1;
 }
 
@@ -36,10 +34,10 @@ body {
   left: 0%;
   top: 0%;
   width: 100%;
-  height: 100%;
+  height: 1270px;
   background-color: $background_color_2;
-  z-index: -999999;
-  opacity: 0.6;
+  z-index: -2;
+  opacity: 0.4;
 }
 
 .header-caption {
@@ -74,26 +72,42 @@ body {
 }
 
 .main-caption {
+  margin-left: 300px;
+  margin-right: 300px;
+  transform: translateY(20%);
   text-align: center;
-  left: 50%;
-  transform: translateY(80%);
-  padding-bottom: 2.5rem;
+  display: grid;
+  align-items: center;
   > p {
     color: $color_1;
     font-family: $font_family_2;
     font-size: 1.2rem;
     text-shadow: 2px 2px 20px white;
   }
-  display: inline-grid;
-  position: absolute;
-  transform: translateY(-150%);
   > .picture-1 {
+    box-shadow: 10px 10px 10px black;
     grid-column: 1;
+    margin-bottom: 20px;
+  }
+  > .picture-1-text {
+    color: $color_1;
     grid-row: 1;
+    grid-column: 4;
+    margin: 0 0 20px 10%;
   }
   > .picture-2 {
-    grid-column: 2;
-    grid-row: 1;
+    box-shadow: 10px 10px 10px black;
+    grid-row: 2;
+    grid-column: 1;
+  }
+  > .picture-2-text {
+    margin: 0 0 20px 10%;
+    grid-row: 2;
+    grid-column: 4;
+  }
+  > .none-picture-text {
+    grid-row: auto;
+    grid-column: 4;
   }
 }
 
@@ -133,7 +147,7 @@ body {
   border: 1px solid gray;
   border-radius: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: -20%;
   width: 99.7%;
   color: black;
   text-align: center;
