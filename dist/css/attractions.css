@@ -16,7 +16,7 @@ body {
   background-color: white;
   width: 100%;
   height: 25%;
-  opacity: .5;
+  opacity: 0.5;
   box-shadow: 20px 20px 20px 30px white; }
 
 #background-lightness {
@@ -27,7 +27,7 @@ body {
   height: 100%;
   background-color: black;
   z-index: -999999;
-  opacity: .6; }
+  opacity: 0.6; }
 
 .header-caption {
   padding: 50px;
@@ -59,22 +59,21 @@ body {
   text-align: center;
   left: 50%;
   transform: translateY(80%);
-  padding-bottom: 2.5rem; }
+  padding-bottom: 2.5rem;
+  display: inline-grid;
+  position: absolute;
+  transform: translateY(-150%); }
   .main-caption > p {
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 1.2rem;
     text-shadow: 2px 2px 20px white; }
-  .main-caption > .main-picture-caption {
-    display: inline-grid;
-    position: absolute;
-    transform: translateY(-150%); }
-    .main-caption > .main-picture-caption > .picture-1 {
-      grid-column: 1;
-      grid-row: 1; }
-    .main-caption > .main-picture-caption > .picture-2 {
-      grid-column: 2;
-      grid-row: 1; }
+  .main-caption > .picture-1 {
+    grid-column: 1;
+    grid-row: 1; }
+  .main-caption > .picture-2 {
+    grid-column: 2;
+    grid-row: 1; }
 
 .contact-caption {
   text-align: center;

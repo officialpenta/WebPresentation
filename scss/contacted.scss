@@ -14,10 +14,8 @@ body {
     z-index: -1;
     position: absolute;
     background-color: white;
-    // left: 780px;
-    // top: 325px;
     left: 50%;
-    top: 45.5%;
+    top: 44.5%;
     transform: translate(-50%, -50%);
     width: 550px;
     height: 140px;
@@ -79,13 +77,23 @@ body {
     margin-right: 700px;
     transform: translateY(105%);
     >.go-back-form {
-        transform: translate(45%, 100%);
+        transform: translate(40%, 100%);
         >input[type=submit] {
             padding: 10px;
-            border: 1px solid white;
-            border-radius: 5px;
+            font-size: 1rem;
+            background: white;
             padding: 12px 20px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: white;
+            transition-duration: 500ms;
             font-family: "Raleway";
+            &:hover {
+                cursor: pointer;
+                border-color: gray;
+                background-color: gray;
+                transition-duration: 500ms;
+            }
         }
     }
 }

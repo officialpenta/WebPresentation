@@ -25,13 +25,11 @@ body {
     z-index: -1;
     position: absolute;
     background-color: white;
-    // left: 780px;
-    // top: 325px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 360px;
+    height: 370px;
     border-style: solid;
     border-color: gray;
     opacity: .5;
@@ -97,7 +95,7 @@ body {
             }
         }
         >input[type=submit] {
-            transform: translateY(20%);
+            transform: translateY(30%);
             font-size: 1rem;
             background: white;
             padding: 12px 20px;
